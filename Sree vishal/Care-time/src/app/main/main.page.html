@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title class="ion-text-center">God's Eye</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark">
+  <ion-card color="light">
+    <ion-card-header>
+      <ion-img class="ion-no-padding ion-no-margin"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJCeYSDfUPafJmPX12bjz5iQ5eoKGIR0Cv12IsMyK0Z1xsGVex"
+      ></ion-img>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-card-title>God's Eye</ion-card-title>
+      <ion-card-subtitle>Be safe anywhere everywhere</ion-card-subtitle>
+      <ion-button color="tertiary" class="ion-margin" (click)="loginPanel()" tab="signIn">
+        <ion-label>Sign in</ion-label>
+      </ion-button>
+      <ion-button color="primary" (click)="signUpPanel()" tab="signUp">
+        <ion-label>Sign up</ion-label>
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

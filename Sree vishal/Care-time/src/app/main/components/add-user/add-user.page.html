@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title>Add People</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="dark">
+  <ion-input type="email" autocomplete="on" placeholder="Enter a email to search" [(ngModel)]="key"></ion-input>
+  <ion-button (click)="getUser()">Search</ion-button>
+  <ion-item color="dark">
+    <ion-label (click)="addContact()">{{name}}</ion-label>
+  </ion-item>
+</ion-content> 

@@ -1,0 +1,7 @@
+{
+  "name": "careTime",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
